@@ -4,13 +4,15 @@ import Nav from "./Nav";
 
 <header 
     class={`
+        flex justify-center items-center
         mx-auto
         py-5
+        sticky top-0
         w-full xl:w-[1120px]
         z-10
     `}
 >
-    <!-- <nav 
+    <nav 
         class={`
             border border-black rounded-full
             px-3 py-1
@@ -21,24 +23,24 @@ import Nav from "./Nav";
     >
         <a 
             class="hover:bg-white/10 rounded-full px-3 transition" 
-            href="#experiencia">
+            href="/#experiencia">
             Experiencia
         </a>
         <a 
             class="hover:bg-white/10 rounded-full px-3 transition" 
-            href="#proyectos">
+            href="/#proyectos">
             Proyectos
         </a>
         <a 
             class="hover:bg-white/10 rounded-full px-3 transition" 
-            href="#sobre-mi">
+            href="/#sobre-mi">
             Sobre mi
         </a>
         <a 
             class="hover:bg-white/10 rounded-full px-3 transition" 
-            href="#contacto">
+            href="/#contacto">
             Contacto
         </a>
-    </nav> -->
-    <Nav client:load/>
+    </nav>
+    <!-- <Nav client:load/> -->
 </header>
